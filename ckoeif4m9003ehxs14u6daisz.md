@@ -18,7 +18,7 @@ Then go to ```myapp``` in the terminal by using the command  ``` cd myapp ```
  npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss-cli autoprefixer@^9
 ```
 
-Here we use `postcss-cli` because tailwind requires a CSS build process and to step and run the build process we use `postcss-cli`. `autoprefixer` also needs our CSS build process. option ```-D``` means all the dependencies are development dependencies. 
+Here we use `postcss-cli`, because tailwind requires a CSS build process and step to run the build process we use `postcss-cli`. `autoprefixer` also needs our CSS build process. option ```-D``` means all the dependencies are development dependencies. 
 
 **Step 3: **
 Open the project folder `myapp` in your favorite code editor.  I preferred Vs Code.  the open terminal in vs code. Then type the following command to create a full Tailwind configuration file for our project.
@@ -51,7 +51,7 @@ Create a folder as `style` in the src folder. Then create two more files in the 
 - `main.css`
 
 **Step 7:**
-In the `tailwind.css``` file add the following files of code. These are basic packages we need to use in our project
+In the `tailwind.css` file add the following files of code. These are basic packages we need to use in our project
 
 ```
 @tailwind base;
