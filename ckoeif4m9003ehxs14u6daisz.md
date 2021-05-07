@@ -45,7 +45,7 @@ ______
 Now create a file as `postcss.config.js`. In this file, we going to specify our CSS build process.
 
 
-> **NOTE:** Both `tailwind.config.js` and `postcss.config.js` are must be located in the root of our project folder.
+> **NOTE:** Both `tailwind.config.js` and `postcss.config.js` must be located in the root of our project folder.
 
 _____
 
