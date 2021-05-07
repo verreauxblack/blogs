@@ -107,7 +107,19 @@ Now you can import our `main.css` file into the `App.js` file. `App.js` is enoug
 import './styles/main.css';
 ```
 
+One last step. Open the terminal in vs code, and type the following command to start build process 
+
+```
+npm run build:css
+```
+
 now you can add tailwind classes to your components 🥳🥳
+
+Start you react app server and Happy coding! 
+
+```
+npm start
+```
 
 >sample figure 2
 >
