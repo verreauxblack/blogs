@@ -17,7 +17,7 @@ _____
 npx create-react-app myapp 
 ``` 
 
-Then go to ```myapp``` in the terminal by using the command  ``` cd myapp ``` 
+Then go to `myapp` in the terminal by using the command  ` cd myapp `
 
 _____ 
 
@@ -28,7 +28,7 @@ _____
  npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss-cli autoprefixer@^9
 ```
 
-Here we use `postcss-cli`, because tailwind requires a CSS build process and step to run the build process we use `postcss-cli`. `autoprefixer` also needs our CSS build process. option ```-D``` means all the dependencies are development dependencies. 
+Here we use `postcss-cli`, because tailwind requires a CSS build process and step to run the build process we use `postcss-cli`. `autoprefixer` also needs our CSS build process. option `-D` means all the dependencies are development dependencies. 
 
 _____
 
