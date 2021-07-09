@@ -2,7 +2,8 @@
 
 Table of contents 
 -  [for...in](#for...in) 
-
+- for...of
+- Comparison
 
 ### for...in: 
 
