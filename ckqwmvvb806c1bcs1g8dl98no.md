@@ -1,7 +1,7 @@
 ## Do you know the difference between for...in and for...of loops in JavaScript?
 
-Table of contents 
--  [for...in](#for...in) 
+Table of content:-
+-  for...in
 - for...of
 - Comparison
 
