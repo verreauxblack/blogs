@@ -45,8 +45,8 @@ In this example, http://api.weatherapi.com is used.
 
 > - 2nd condition checks response data,  Condition is ```{{OUTPUT.current.temp_c>22}}``` if temperature is more than 22 deg Celsius, then the Message ```Temperature is {{OUTPUT.current.temp_c}}, Condition is {{OUTPUT.current.condition.text}}``` and Code will be used in app 
 
-### Result: 
-If Bind data used
+### Bind data Result: 
+
 ![bind_data.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643608933895/poqu_k5Dt.png)
 
 ### Actionflow configuration.
