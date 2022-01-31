@@ -5,7 +5,7 @@ We are introducing a new feature in the [DronaHQ](https://www.dronahq.com) Studi
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643206967739/9TmEZWKJ7.png)
 
-** What is Failure Condition?**
+###  What is Failure Condition?
 - It has three input and five keywords
 - Inputs are Condition, Message, Code. 
     - *Condition* and *Message* box both accepts inline JavaScript within double curly braces ```{{ }}``` *example:* ```{{STATUSCODE >= 400}}```
@@ -21,11 +21,11 @@ We are introducing a new feature in the [DronaHQ](https://www.dronahq.com) Studi
 
 For example, you can write a condition to check the status code of the API response and you can add your custom message to display in the app.
 
-**How Failure Condition is working?**<br>
+### How Failure Condition is working?<br>
 
 Failure condition accepts more than one condition. If the first condition returns true then the remaining conditions won't execute. If the first condition returns false then the next condition will execute and so on. Message and Code will be used in [Bind data](https://community.dronahq.com/t/bind-data-using-connectors/781) and [Action flow](https://community.dronahq.com/t/understanding-action-flow/572)
 
-**Why Failure Condition?** <br>
+### Why Failure Condition? <br>
 - Have you ever worked with API? If yes, then you might know about the API's status code and response. Third-party APIs sometimes send an error response with a success status code 200. This situation is a bit harder to handle. But if you are working on DronaHQ this can be easily handled.
 - Write your condition to check the status code and add a custom message to display in app
 
@@ -45,7 +45,7 @@ In this example, http://api.weatherapi.com is used.
 
 > - 2nd condition checks response data,  Condition is ```{{OUTPUT.current.temp_c>22}}``` if temperature is more than 22 deg Celsius, then the Message ```Temperature is {{OUTPUT.current.temp_c}}, Condition is {{OUTPUT.current.condition.text}}``` and Code will be used in app 
 
-**Result:**<br>
+### Result: <br>
 If Bind data used
 ![bind_data.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1643608933895/poqu_k5Dt.png)
 
