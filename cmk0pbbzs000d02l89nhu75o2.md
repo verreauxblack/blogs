@@ -20,10 +20,6 @@ This article explains **all the practical ways** to inspect Git stash changes cl
 
 ![Image](https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AXurNAi3h2jpD67Pq2OgmrQ%402x.png align="left")
 
-![Image](https://media.geeksforgeeks.org/wp-content/uploads/20240524092824/1.png align="left")
-
-![Image](https://phoenixnap.com/kb/wp-content/uploads/2022/09/list-stashes-from-all-branches.png align="left")
-
 ---
 
 ## What Is Git Stash?
